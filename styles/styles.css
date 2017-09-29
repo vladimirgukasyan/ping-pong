@@ -1,0 +1,46 @@
+#game {
+  background:orangered;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#ball {
+  background: yellow;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 290px;
+  top: 140px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#pA {
+    background: green;
+    position: absolute;
+    width:10px;
+    height:100px;
+    left:50;
+    top:100;
+    position:relative;
+    overflow: hidden;
+    border-radius:5px;
+    border: 2px solid black;
+}
+
+#pB {
+    background: blue;
+    position: absolute;
+    width:10px;
+    height:100px;
+    left:530;
+    position:relative;
+    overflow: hidden;
+    border-radius:5px;
+    border: 2px solid black;
+}
